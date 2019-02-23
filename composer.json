@@ -10,16 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
-        "psr-0": {
-            "wp-admin": "src/"
-        }
-    },
-    
-    "extra": {
-        "installer-paths": {
-            "wp_framework/{$name}": ["vendor/package"]
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
         }
     },
     "require": {
