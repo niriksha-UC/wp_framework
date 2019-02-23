@@ -11,13 +11,18 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "wp-admin": "src/"
+        }
+    },
+    
+    "extra": {
+        "installer-paths": {
+            "wp_framework/{$name}": ["vendor/package"]
+        }
+    },
     "require": {
         "php": ">=5.3.2"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ]
+    }
 }
