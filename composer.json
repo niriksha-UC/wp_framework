@@ -11,5 +11,6 @@
             "name": "niriksha",
             "email": "niriksha@upstreampays.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
