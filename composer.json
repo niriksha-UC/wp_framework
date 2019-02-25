@@ -1,8 +1,7 @@
 {
     "name": "wp_framework",
-    "description": "WordPress is web software you can use to create a beautiful website or blog.",
+    "description": "",
     "type": "wordpress-core",
-    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "niriksha",
