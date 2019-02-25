@@ -1,5 +1,5 @@
 {
-    "name": "wp_framework/",
+    "name": "wp_framework",
     "description": "WordPress is web software you can use to create a beautiful website or blog.",
     "type": "wordpress-core",
     "license": "BSD-3-Clause",
